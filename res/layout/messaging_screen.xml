@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <!--   <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Messages:" />-->
+
+    
+     <!--   <ListView
+           android:id="@+id/MessageView"
+           android:layout_width="320dp"
+           android:layout_height="379dp"
+           android:layout_above="@+id/sendMessageButton"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/futureyouth"
+           android:scrollbars="vertical"
+           android:stackFromBottom="true" >
+
+    </ListView>-->
+    
+  <!--       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >      
+     
+    </LinearLayout>-->
+    
+       <LinearLayout
+           android:id="@+id/smslinearLayout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:orientation="horizontal" >
+   
+</LinearLayout>    
+   
+     
+
+ <!--     <EditText
+        android:id="@+id/message"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sendMessageButton"
+        android:layout_alignTop="@+id/sendMessageButton"
+        android:layout_toRightOf="@+id/btnselect"
+        android:gravity="top"
+        android:inputType="text"
+        android:maxLines="10"
+        android:minLines="1" />-->
+    
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="260dp"
+       
+        android:layout_height="wrap_content" 
+		android:isScrollContainer="true"
+		 
+		android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine|textImeMultiLine"
+        
+        android:layout_toRightOf="@+id/btnselect"
+         
+        android:fontFamily="sans-serif-light"
+        android:hint="Type Message Here"
+        android:imeOptions="actionSend|flagNoEnterAction"
+     	android:layout_alignBottom="@+id/sendMessageButton"
+        android:maxLines="6"
+        android:minLines="1"
+        android:textColor="#333333" />
+
+    <!--  
+    android:gravity="top"
+    android:layout_alignBottom="@+id/sendMessageButton"
+        android:layout_alignTop="@+id/sendMessageButton"
+    
+     android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine|textImeMultiLine"-->
+    
+    
+<!--       android:layout_height="379dp" android:layout_above="@+id/sendMessageButton" -->
+    
+    <ListView
+        android:id="@+id/MessageView"
+        android:layout_width="333dp"
+        android:layout_height="379dp"
+         android:layout_below="@+id/smslinearLayout"
+        android:layout_above="@+id/message"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="vertical"
+        android:stackFromBottom="true"
+        android:transcriptMode="normal" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnselect"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/btn_emotion_normal" />
+
+<!--    <Button
+        android:id="@+id/sendMessageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/message"
+        android:text="Send" />-->
+        
+         <ImageButton
+             android:id="@+id/sendMessageButton"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentRight="true"
+             android:layout_toRightOf="@+id/message"
+             android:fontFamily="sans-serif-light"
+           
+             android:src="@drawable/ic_send_holo_light" />
+       
+</RelativeLayout>

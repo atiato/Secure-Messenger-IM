@@ -1,0 +1,44 @@
+<resources>
+	<string name="hello" translatable="false">ThinkTalkIM</string>
+    <string name="app_name" translatable="false">ThinkTalkIM</string>
+    <string name="friend_list" translatable="false">Friend List</string>
+    <string name="username" translatable="false">Username:</string>
+    <string name="password" translatable="false">Password:</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="messaging" translatable="false">Messaging</string>
+    <string name="local_service_started" translatable="false">App service started</string>
+    <string name="local_service_stopped" translatable="false">App service stopped</string>
+	<string name="local_service_connected" translatable="false">local_service_connected</string>
+	<string name="OK" translatable="false">OK</string>
+	<string name="not_connected_to_service" translatable="false">Not connected to the service and 
+	this is not supposed to happened so please inform this situation to 
+	atiaomar1978@gmail.com</string>	
+	<string name="fill_both_username_and_password" translatable="false">Please fill both username and password</string>
+	<string name="make_sure_username_and_password_correct" translatable="false">Please make sure that
+	your username and password correct</string>
+	<string name="user_offline" translatable="false">This user is offline</string>
+	<string name="sign_up" translatable="false">Sign up</string>
+	<string name="upload_up" translatable="false">Show Chat History</string>
+	<string name="uploadfile_up" translatable="false">Upload Encrypted File</string>
+	<string name="exit_application" translatable="false">Exit</string>
+	<string name="password_again" translatable="false">Password(again):</string>
+	<string name="email" translatable="false">E-mail</string>
+	<string name="signup_fill_all_fields" translatable="false">Please fill all fields</string>
+	<string name="signup_type_same_password_in_password_fields" translatable="false">Type same password in password fields</string>
+	<string name="signup_failed" translatable="false">Sign up failed because of unknown reason</string>
+	<string name="signup_username_crashed" translatable="false">Your username have been already taken, please try another username</string>
+	<string name="signup_successfull" translatable="false">Your registration is completed successfully,\n you can login now </string>
+	<string name="username_and_password_length_short" translatable="false">Username and password length must be at least 5</string>
+	<string name="add_new_friend" translatable="false">Add new friend</string>
+	<string name="no_friend" translatable="false">You have no friend,\n you can add new friends by menu</string>
+	<string name="add" translatable="false">Add</string>
+	<string name="request_sent" translatable="false">Your request has been sent</string>
+	<string name="type_friend_username" translatable="false">Please type your friend username</string>
+	<string name="new_friend_request_exist" translatable="false">New friend request</string>
+	<string name="approve_selected_friends" translatable="false">Approve Selecteds and Discard Others</string>
+	<string name="CreateGroup" translatable="false">Create Group</string>
+	<string name="not_connected_to_network" translatable="false">There is no available connected network</string>
+	<string name="message_cannot_be_sent" translatable="false">Message was not been able to sent</string>
+
+</resources>

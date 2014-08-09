@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+		
+ <!--    <EditText android:id="@+id/putPasswordupload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:singleLine="true"
+        android:password="false"
+    />-->
+    
+    <LinearLayout
+              android:id="@+id/uplinearLayout"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+   
+</LinearLayout>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text="Password"
+    />
+    
+    <EditText android:id="@+id/putPasswordupload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:singleLine="true"
+        android:password="true"
+        android:hint="Type Password to Encrypt the File!"
+    />
+        <Button
+            android:id="@+id/button_selectfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:text="Select File" >
+        </Button>
+
+        <Button
+            android:id="@+id/uploadfileButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Send File" >
+</Button>
+            <TextView
+                android:id="@+id/messageText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+              >
+            </TextView>
+
+        <!--     <Button
+                android:id="@+id/SendfileButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Send URL" />-->
+
+</LinearLayout>

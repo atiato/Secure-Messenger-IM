@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+ <!--     <EditText android:id="@+id/putPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:singleLine="true"
+        android:password="false"
+    />-->
+    
+    <LinearLayout
+              android:id="@+id/dolinearLayout"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+   
+</LinearLayout>
+    
+      <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text="Password"
+    />
+    
+    <EditText android:id="@+id/putPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:singleLine="true"
+        android:password="true"
+                android:hint="Type Password to Decrypt the File!"
+        
+    />
+
+      <TextView
+          android:id="@+id/Textfiledownload"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" />
+
+      <Button
+          android:id="@+id/getdownload"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Get Encrypted File!" />
+
+</LinearLayout>
